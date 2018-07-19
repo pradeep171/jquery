@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jquery</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $("#btn").click(function() {
+                $("#content").html("<h3>jQuery is Fun!</h3>")
+            });
+            $("p").hover(function() {
+                $(this).css("background-color", "yellow")
+            });
+            $("p").mouseleave(function() {
+                $(this).css("background-color", "white")
+            });
+            font_size = 16;
+            $("#plus").click(function() {
+                $("p").css("font-size", font_size++)
+            });
+            $("#minus").click(function() {
+                $("p").css("font-size", font_size--)
+            });
+
+
+        });
+
+    </script>
+</head>
+
+<body>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <hr>
+    <button id="btn">click!</button>
+    <div id="content"></div>
+
+    <p>
+        Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.
+
+    </p>
+    <p>
+        Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.
+
+    </p>
+    <p>
+        Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.
+
+    </p>
+</body>
+
+</html>
