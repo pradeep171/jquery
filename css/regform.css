@@ -35,3 +35,7 @@ h3{
     text-align: center;
     color: maroon;
 }
+th{
+    color: white;
+    background-color: lightblue;
+}
