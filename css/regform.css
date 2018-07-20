@@ -14,3 +14,20 @@ input.inpreg{
     width: 250px;
     height: 15px;
 }
+#btnsub{
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
+#btnclr{
+    background-color: blue;
+    color: white;
+    width: 80px;
+}
+#course{
+    width: 250px;
+    height: 20px;
+}
+#dialog{
+    background-color: lavender;
+}
